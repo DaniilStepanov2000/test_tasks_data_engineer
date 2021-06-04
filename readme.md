@@ -54,7 +54,7 @@ __Шаг 4:__ Получаем результат.<br><br>
 1.1 Запрос, который выводит количество действий за определенный месяц (февраль 2020):<br><br>
 ![rPv3c5fbst0](https://user-images.githubusercontent.com/73431786/120778312-de14ba80-c52e-11eb-849d-34e94ddc6564.jpg) <br>
 ```SQL
-SELECT COUNT(actions)
+SELECT COUNT(action)
 FROM actions
 WHERE dt >= '2020-02-01 00:00:00'
 AND dt < '2020-02-29 23:59:59'
