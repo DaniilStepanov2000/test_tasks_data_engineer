@@ -14,8 +14,8 @@ def create_parser() -> argparse.ArgumentParser:
     """
     parser = argparse.ArgumentParser()
     parser.add_argument('name')
-    parser.add_argument('--user_name', default=None)
-    parser.add_argument('--user_salary', default=None)
+    parser.add_argument('--em_sue_name', default=None)
+    parser.add_argument('--em_salary', default=None)
 
     return parser
 
@@ -185,8 +185,8 @@ def get_arg_from_pars() -> (str, str, str):
     parser = create_parser()
     namespace = parser.parse_args()
     name = namespace.name
-    emp_name = namespace.user_name
-    emp_salary = namespace.user_salary
+    emp_name = namespace.em_sue_name
+    emp_salary = namespace.em_salary
 
     return name, emp_name, emp_salary
 
