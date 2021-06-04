@@ -11,7 +11,7 @@
 3. Активировать виртуальную среду, используя команду:<br>
    _Windows:_
    ``` 
-   venv/Scripts/activate
+   env_name/Scripts/activate
    ```
    _Mac OS / Linux:_
    ``` 
